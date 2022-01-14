@@ -5,7 +5,7 @@ function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake){
   return knightIsAwake || archerIsAwake || prisonerIsAwake;
 };
 function canSignalPrisoner(archerIsAwake, prisonerIsAwake){
-  return prisonerIsAwake && !archerIsAwake;
+  return prisonerIsAwake && !archerIsAwake; 
 }
 function canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent){
   return ((prisonerIsAwake && !knightIsAwake && !archerIsAwake) || (!archerIsAwake && petDogIsPresent))
