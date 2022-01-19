@@ -1,15 +1,15 @@
 function canExecuteFastAttack(knightIsAwake){
   return !knightIsAwake;
-}
+};
 function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake){
   return knightIsAwake || archerIsAwake || prisonerIsAwake;
 };
 function canSignalPrisoner(archerIsAwake, prisonerIsAwake){
   return prisonerIsAwake && !archerIsAwake; 
-}
+};
 function canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent){
   return ((prisonerIsAwake && !knightIsAwake && !archerIsAwake) || (!archerIsAwake && petDogIsPresent))
-}
+};
 
 /* Rules: The game's main character is Kashii, a brave girl with a fierce and loyal pet dog. Unfortunately, disaster strikes, as her best friend was kidnapped while searching for berries in the forest. Annalyn will try to find and free her best friend, optionally taking her dog with her on this quest.
 
