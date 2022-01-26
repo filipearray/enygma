@@ -1,5 +1,5 @@
 function canExecuteFastAttack(knightIsAwake){
-  return !knightIsAwake;
+  return !knightIsAwake; 
 };
 function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake){
   return knightIsAwake || archerIsAwake || prisonerIsAwake;
