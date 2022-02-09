@@ -1,6 +1,6 @@
 function canExecuteFastAttack(knightIsAwake){
   return !knightIsAwake; 
-};
+}; 
 function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake){
   return knightIsAwake || archerIsAwake || prisonerIsAwake;
 };
@@ -26,3 +26,4 @@ Free prisoner: Annalyn can try sneaking into the camp to free the prisoner. This
 If Annalyn has her pet dog with her she can rescue the prisoner if the archer is asleep. The knight is scared of the dog and the archer will not have time to get ready before Annalyn and the prisoner can escape.
 
 If Annalyn does not have her dog then she and the prisoner must be very sneaky! Annalyn can free the prisoner if the prisoner is awake and the knight and archer are both sleeping, but if the prisoner is sleeping they can't be rescued: the prisoner would be startled by Annalyn's sudden appearance and wake up the knight and archer. */
+ 
